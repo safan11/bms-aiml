@@ -1,0 +1,19 @@
+package day1;
+
+public class ArrayDemo1 {
+
+	public static void main(String[] args) {
+
+		int marks[]= {50,60,70,47}; // array initilization 
+		
+		System.out.println(marks[1]); // accesing the 1st index
+		System.out.println(marks.length); // find the length of array
+		
+		for(int i=0;i<marks.length;i++)
+		   System.out.println(marks[i]);
+		
+		
+		
+	}
+
+}

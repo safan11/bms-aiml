@@ -1,0 +1,28 @@
+package com.bms.day1.oops.encapsulation;
+
+
+class Customer
+{
+	int id;
+	String name;
+	String contactNo;
+	
+	public Customer(int id, String name, String contactNo) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.contactNo = contactNo;
+	}
+	
+	
+}
+
+
+
+public class ToStringDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.bms.day1.oops.encapsulation;
+
+public class EncapsulationDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

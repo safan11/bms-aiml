@@ -1,0 +1,24 @@
+package com.bms.day1.oops;
+
+class Parent 
+{
+	void breakfast()
+	{
+		System.out.println("idly");
+	}
+	void marry()
+	{
+		System.out.println("swetha");
+	}
+}
+
+
+
+
+public class OverridingDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.bms.day1.oops;
+
+class Account
+{
+	
+}
+
+
+public class InheritanceDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

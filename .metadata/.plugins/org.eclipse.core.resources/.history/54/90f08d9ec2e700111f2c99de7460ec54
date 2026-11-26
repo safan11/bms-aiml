@@ -1,0 +1,23 @@
+package com.bms.day2.exception;
+
+public class ThrowsDemo {
+
+	void validageAge(int age)
+	{
+		if(age<18)
+		{
+			//throw new ArithmeticException("age is invalid");
+			thorw new ClassNotFoundException("age is less");
+		}
+			
+		
+		else 
+			System.out.println("eligible to vote");
+	}
+	
+	public static void main(String[] args) {
+
+		
+	}
+
+}

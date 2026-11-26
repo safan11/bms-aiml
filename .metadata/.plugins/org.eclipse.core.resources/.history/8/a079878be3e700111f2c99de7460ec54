@@ -1,0 +1,6 @@
+package com.bms.exception;
+
+public class InValidAgeException extends Exception {
+
+	
+}

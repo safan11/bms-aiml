@@ -1,0 +1,34 @@
+package com.bms.day2.collection;
+
+import java.util.ArrayList;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> names = new ArrayList<String>();
+		System.out.println("size of list before adding "+ names.size());
+		names.add("anil");
+		names.add("sunil");
+		names.add("anil");
+		names.add("mahesh");
+		System.out.println("size of list after adding "+ names.size());
+		System.out.println("display all the elemenst :"+ names);
+		
+		System.out.println("check for the name :"+ names.contains("sunil"));
+		names.remove("mahesh");
+		System.out.println("after removing :"+ names);
+		
+		//iterate the element one by one 
+		for(String name : names)
+			System.out.println(name);
+		
+		
+		
+
+		
+
+		
+	}
+
+}

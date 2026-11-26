@@ -1,0 +1,40 @@
+package com.bms.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.bms.model.Employee;
+
+public class EmployeeService {
+
+	ArrayList<Employee> employees = new ArrayList<Employee>();
+
+    
+	public String addEmployee(Employee employee)
+	{
+		  employees.add(employee);
+		
+		return "employee added successfully";
+	}
+	
+	public List<Employee> getAllEmployee()
+	{
+		return employees;
+	}
+	
+	
+	public Employee findEmployeeById(int id)
+	{
+		for(Employee employee : employees)
+		{
+			if(employee.getId()==id)
+			{
+				return employee;
+			}
+		}
+		
+		return null;
+	}
+
+
+}

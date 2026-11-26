@@ -1,0 +1,37 @@
+package com.bms.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.bms.entity.Employee;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService{
+
+	@Override
+	public Employee addEmployee(Employee employee) {
+		return null;
+	}
+
+	@Override
+	public List<Employee> getAllEmployee() {
+		return null;
+	}
+
+	@Override
+	public Employee getEmployeeById(int id) {
+		return null;
+	}
+
+	@Override
+	public String deleteEmployeeById(int id) {
+		return null;
+	}
+
+	@Override
+	public Employee updateEmployeeById(int id) {
+		return null;
+	}
+
+}

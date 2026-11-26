@@ -1,0 +1,15 @@
+package com.bms.day1.oops;
+
+public class AccountApp {
+
+	public static void main(String[] args) {
+
+		Account account = new Account(1001, "Safan", 5000, 5);
+		account.displayBalance();
+		account.withdraw(2000);
+		account.deposit(1000);
+		account.displayBalance();
+	
+	}
+
+}

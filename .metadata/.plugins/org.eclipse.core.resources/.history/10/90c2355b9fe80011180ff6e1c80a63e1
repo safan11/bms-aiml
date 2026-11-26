@@ -1,0 +1,22 @@
+package com.bms.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bms.entity.Employee;
+import com.bms.repository.EmployeeRepository;
+
+@RestController
+public class EmployeeController {
+
+	@Autowired
+	EmployeeRepository employeeRepository;
+	
+	public Employee addEmployee(@RequestBody Employee employee)
+	{
+	    return	employeeRepository.save(employee);
+		
+	}
+	
+}

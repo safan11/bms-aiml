@@ -1,0 +1,27 @@
+package com.bms.day1.oops;
+
+class Account1
+{
+	Account1()
+	{
+		System.out.println("default constructor");
+	}
+}
+
+class SavingAccount extends Account1
+{
+	SavingAccount()
+	{
+		System.out.println("saving account constructor");
+	}
+	
+}
+
+
+public class InheritanceDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

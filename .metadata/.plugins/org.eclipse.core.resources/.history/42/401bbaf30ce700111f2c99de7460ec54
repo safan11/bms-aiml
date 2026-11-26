@@ -1,0 +1,9 @@
+package com.bms.day1.oops;
+
+public class Account {
+
+	int accountNumber;
+	String accountHolderName;
+	double balance;
+	double rateOfInterest;
+}

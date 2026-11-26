@@ -1,0 +1,21 @@
+package com.bms.day1.oops.encapsulation;
+
+
+class Customer
+{
+	int id;
+	String name;
+	String contactNo;
+	
+	
+}
+
+
+
+public class ToStringDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

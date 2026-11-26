@@ -1,0 +1,20 @@
+package com.bms.service;
+
+import java.util.ArrayList;
+
+import com.bms.model.Employee;
+
+public class EmployeeService {
+
+	ArrayList<Employee> employees = new ArrayList<Employee>();
+
+    
+	public String addEmployee(Employee employee)
+	{
+		employees.add(employee)
+		
+		return "employee added successfully";
+	}
+
+
+}

@@ -1,0 +1,31 @@
+package com.bms.day2.exception;
+
+class InValidAgeException extends RuntimeException 
+{
+	public InValidAgeException(String msg) {
+       super(msg);
+	}
+}
+
+
+
+public class ThrowsDemo {
+
+	void validageAge(int age) 
+	{
+		if(age<18)
+		{
+			
+		}
+			
+		
+		else 
+			System.out.println("eligible to vote");
+	}
+	
+	public static void main(String[] args) {
+
+		
+	}
+
+}

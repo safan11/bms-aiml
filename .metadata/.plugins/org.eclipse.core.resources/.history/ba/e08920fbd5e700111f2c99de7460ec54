@@ -1,0 +1,10 @@
+package com.bms.service;
+
+import java.util.ArrayList;
+
+import com.bms.model.Employee;
+
+public class EmployeeService {
+
+	ArrayList<Employee> employees = new ArrayList<Employee>();
+}

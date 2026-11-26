@@ -1,0 +1,53 @@
+package com.bms.day1.oops;
+
+class Car
+{ 
+	//attribute or variable
+	int modelNo;
+	int kilometerDriven;
+	String ownerName;
+	
+	public Car(int modelNo, int kilometerDriven, String ownerName) {
+		super();
+		this.modelNo = modelNo;
+		this.kilometerDriven = kilometerDriven;
+		this.ownerName = ownerName;
+	}
+
+	//methods
+	void displayCarInfo()
+	{
+		System.out.println("Model No:"+ modelNo);
+		System.out.println("kilometer Driven :"+ kilometerDriven);
+		System.out.println("owner name :"+ ownerName);
+	}
+	
+	String checkCarStatu()
+	{
+		if(kilometerDriven<=5000)
+			return "It is brand New Car";
+		else if(kilometerDriven> 5000 && kilometerDriven <=20000)
+			return "It is in good condition";
+		
+		return "Car is old";
+	}
+	
+}
+
+public class CarApp {
+
+	public static void main(String[] args) {
+
+		
+		Car car1 = new Car(2009,27000,"sachin"); 
+		car1.displayCarInfo();
+		System.out.println(car1.checkCarStatu());
+		
+		Car car2 = new Car(2022,5000,"anil");
+		car1.displayCarInfo();
+		System.out.println(car1.checkCarStatu());
+		
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.bms.day1.oops;
+
+class Calculation
+{
+	
+	// same method different argument
+	public void add(int a,int b)
+	{
+		System.out.println(a+b);
+	}
+	
+	public void add(int a, int b, int c)
+	{
+		System.out.println(a+b+c);
+	}
+}
+
+
+
+public class OverloadingDemo {
+
+	public static void main(String[] args) {
+
+		Calculation calculation = new Calculation();
+		calculation.add(1,2,3);
+	}
+
+}

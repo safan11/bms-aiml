@@ -1,0 +1,42 @@
+package com.bms.day1.oops;
+
+class Parent 
+{
+	void breakfast()
+	{
+		System.out.println("idly");
+	}
+	void marry()
+	{
+		System.out.println("swetha");
+	}
+}
+
+class Child extends Parent
+{
+	
+	void marry()
+	{
+		System.out.println("sushma");
+	}
+	
+	void sport()
+	{
+		System.out.println("badminton");
+	}
+}
+
+
+
+public class OverridingDemo {
+
+	public static void main(String[] args) {
+
+		Child child = new Child();
+		child.breakfast();
+		child.marry();
+		
+		Parent parent = new Child();
+	}
+
+}

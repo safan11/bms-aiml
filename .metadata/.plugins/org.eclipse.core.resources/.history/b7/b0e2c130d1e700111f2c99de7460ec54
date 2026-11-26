@@ -1,0 +1,42 @@
+package com.bms.day2.collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+
+		ArrayList<Integer> nums1 = new ArrayList<Integer>();
+		nums1.add(1);
+		nums1.add(2);
+		nums1.add(3);
+		nums1.add(4);
+		nums1.add(5);
+       System.out.println("elements of num1 :"+ nums1);
+		
+		ArrayList<Integer> nums2 = new ArrayList<Integer>();
+		nums2.add(4);
+		nums2.add(5);
+		nums2.add(6);
+		nums2.add(7);
+		nums2.add(8);
+	     System.out.println("elements of num2 :"+ nums2);
+
+	   //  nums1.addAll(nums2);
+	    // System.out.println("after add num2 in num1 :"+ nums1);
+	     
+	   //  nums1.retainAll(nums2);
+	   //  System.out.println("after retain "+ nums1);
+	     
+	   nums1.removeAll(nums2);
+	   System.out.println("after remove all :"+ nums1);
+	   
+	   Collections.sort(nums1);
+	   System.out.println("after sort :"+ nums1);
+	     
+	     
+
+	}
+
+}

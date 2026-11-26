@@ -1,0 +1,21 @@
+package com.bms.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bms.entity.Employee;
+import com.bms.repository.EmployeeRepository;
+
+@Service // It will configure the bean
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Autowired
+	EmployeeRepository employeeRepository;
+	
+	
+	
+
+	
+}

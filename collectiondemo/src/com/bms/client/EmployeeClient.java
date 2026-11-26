@@ -1,0 +1,40 @@
+package com.bms.client;
+
+import java.util.List;
+
+import com.bms.exception.IdNotFoundException;
+import com.bms.exception.InValidAgeException;
+import com.bms.model.Employee;
+import com.bms.service.EmployeeService;
+
+public class EmployeeClient {
+
+	public static void main(String[] args) throws IdNotFoundException,InValidAgeException{
+
+		Employee e1 = new Employee(1, "anil", "hr", 24, 67000.0);
+		Employee e2 = new Employee(2, "suraj", "dev", 24, 54000.0);
+		Employee e3 = new Employee(3, "mahesh", "hr", 24, 68000.0);
+
+		
+		EmployeeService employeeService = new EmployeeService();
+		
+		//adding employee objects 
+		employeeService.addEmployee(e1);
+		employeeService.addEmployee(e2);
+		employeeService.addEmployee(e3);
+		
+		//reterive all
+		System.out.println("---display all employee---");
+	     List<Employee> employees =	employeeService.getAllEmployee();
+	     for(Employee employee: employees)
+	    	 System.out.println(employee);
+
+	     
+	    //reterive by id 
+	     System.out.println("find employee by Id"+employeeService.findEmployeeById(1));
+	
+	    
+	
+	}
+
+}

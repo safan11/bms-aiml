@@ -1,0 +1,31 @@
+package com.bms.day1.oops;
+
+class Car
+{ 
+	//attribute or variable
+	int modelNo;
+	int kilometerDriven;
+	String ownerName;
+	
+	
+	void displayCarInfo()
+	{
+		System.out.println("Model No:"+ modelNo);
+		System.out.println("kilometer Driven :"+ kilometerDriven);
+		System.out.println("owner name :"+ ownerName);
+	}
+	
+	
+	
+}
+
+
+
+
+public class CarApp {
+
+	public static void main(String[] args) {
+
+	}
+
+}

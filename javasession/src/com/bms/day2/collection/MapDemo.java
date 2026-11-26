@@ -1,0 +1,29 @@
+package com.bms.day2.collection;
+
+import java.util.HashMap;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+
+		HashMap<Integer, String> students = new HashMap<Integer, String>();
+		students.put(1, "anil");
+		students.put(2, "suraj");
+		students.put(1, "raj");
+		students.putIfAbsent(2, "ankit");
+		students.put(3, "madan");
+		
+		System.out.println(students);
+		
+		System.out.println("get all the values "+students.values());
+		System.out.println("get all the keys "+students.keySet());
+		System.out.println("get the object by using key :"+ students.get(2));
+		
+		System.out.println("iterate all the elemenst by using key");
+		for(Integer key : students.keySet())
+			System.out.println(students.get(key));
+		
+		
+	}
+
+}

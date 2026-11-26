@@ -1,0 +1,28 @@
+package com.bms.day2.exception;
+
+public class ThrowDemo {
+
+	
+	void validageAge(int age)
+	{
+		if(age<18)
+			throw new ArithmeticException("age is invalid"); 
+		else 
+			System.out.println("eligible to vote");
+	}
+	
+	
+	public static void main(String[] args) {
+
+		ThrowDemo throwDemo = new ThrowDemo();
+		try
+		{
+			throwDemo.validageAge(3);
+		}
+		catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		
+	}
+
+}

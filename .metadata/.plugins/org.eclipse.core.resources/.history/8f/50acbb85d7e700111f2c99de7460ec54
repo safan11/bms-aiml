@@ -1,0 +1,23 @@
+package com.bms.client;
+
+import com.bms.model.Employee;
+import com.bms.service.EmployeeService;
+
+public class EmployeeClient {
+
+	public static void main(String[] args) {
+
+		Employee e1 = new Employee(1, "anil", "hr", 24, 67000.0);
+		Employee e2 = new Employee(1, "anil", "hr", 24, 67000.0);
+		Employee e3 = new Employee(1, "anil", "hr", 24, 67000.0);
+
+		
+		EmployeeService employeeService = new EmployeeService();
+		
+		employeeService.addEmployee(e1);
+		employeeService.addEmployee(e2);
+		employeeService.addEmployee(e3);
+		
+	}
+
+}

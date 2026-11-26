@@ -1,0 +1,41 @@
+package com.bms.day1.oops.encapsulation;
+
+class Employee {
+	private int id;// global
+	private String name;
+	
+	
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	
+
+}
+
+public class EncapsulationDemo {
+
+	public static void main(String[] args) {
+
+		Employee employee = new Employee();
+		employee.setId(1);
+		employee.setName("anil");
+		
+		System.out.println(employee.getId());
+		System.out.println(employee.getName());
+      }
+
+}
