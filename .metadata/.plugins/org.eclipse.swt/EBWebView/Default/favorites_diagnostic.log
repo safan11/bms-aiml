@@ -467,3 +467,13 @@
 2026-11-26 17:35:49.898: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-11-26 17:35:49.898: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-11-27 03:59:43.146: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-27 04:51:54.423: [INFO] CurrentProfilePath: C:\Users\safan\bms aiml\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-27 04:51:54.423: [INFO] Profiles total count: 1
+2026-11-27 04:51:54.423: [INFO] Profile: name=Profile 1 path=C:\Users\safan\bms aiml\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-11-23T04:20:44.192Z
+2026-11-27 04:51:54.423: [INFO] LastUsedProfileDir: C:\Users\safan\bms aiml\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-27 04:51:54.423: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\safan\bms aiml\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-11-23T04:20:44.192Z
+2026-11-27 04:51:54.423: [INFO] OnDoneLoading sync enabled: 0
+2026-11-27 04:51:54.423: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-27 04:51:54.423: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-27 04:51:54.423: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-27 05:42:33.593: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
